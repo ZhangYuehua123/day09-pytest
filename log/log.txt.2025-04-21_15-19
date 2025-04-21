@@ -1,0 +1,178 @@
+2025-04-21 15:18:52,492 INFO [base.py(__init__:12)] - 获取driver对象<selenium.webdriver.chrome.webdriver.WebDriver (session="bbaa521c83d86377aa0016ff0dbbc8bc")>
+2025-04-21 15:18:52,493 INFO [base.py(base_click:25)] - 点击('partial link text', '登录')元素
+2025-04-21 15:18:52,493 INFO [base.py(base_find_element:17)] - 查找元素('partial link text', '登录')
+2025-04-21 15:18:53,661 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'username')输入内容:13099999999
+2025-04-21 15:18:53,661 INFO [base.py(base_find_element:17)] - 查找元素('id', 'username')
+2025-04-21 15:18:53,712 INFO [base.py(base_input_text:35)] - 正在给('id', 'username')元素清空
+2025-04-21 15:18:53,759 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'password')输入内容:123456
+2025-04-21 15:18:53,760 INFO [base.py(base_find_element:17)] - 查找元素('id', 'password')
+2025-04-21 15:18:53,778 INFO [base.py(base_input_text:35)] - 正在给('id', 'password')元素清空
+2025-04-21 15:18:53,805 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'verify_code')输入内容:8888
+2025-04-21 15:18:53,805 INFO [base.py(base_find_element:17)] - 查找元素('id', 'verify_code')
+2025-04-21 15:18:53,826 INFO [base.py(base_input_text:35)] - 正在给('id', 'verify_code')元素清空
+2025-04-21 15:18:53,849 INFO [base.py(base_click:25)] - 点击('css selector', '.J-login-submit')元素
+2025-04-21 15:18:53,849 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.J-login-submit')
+2025-04-21 15:18:53,883 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:18:54,402 INFO [base.py(base_get_text:41)] - 获取的文本内容账号不存在!
+2025-04-21 15:18:54,403 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:18:54,620 ERROR [test_login.py(test_login:79)] - assert '账号不存在!' == '账号不存在!1'
+  
+  - 账号不存在!1
+  ?       -
+  + 账号不存在!
+2025-04-21 15:18:54,620 INFO [base.py(base_click:25)] - 点击('css selector', '.layui-layer-btn0')元素
+2025-04-21 15:18:54,620 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-btn0')
+2025-04-21 15:18:54,656 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'username')输入内容:17823456789
+2025-04-21 15:18:54,656 INFO [base.py(base_find_element:17)] - 查找元素('id', 'username')
+2025-04-21 15:18:54,691 INFO [base.py(base_input_text:35)] - 正在给('id', 'username')元素清空
+2025-04-21 15:18:54,719 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'password')输入内容:123123
+2025-04-21 15:18:54,719 INFO [base.py(base_find_element:17)] - 查找元素('id', 'password')
+2025-04-21 15:18:54,735 INFO [base.py(base_input_text:35)] - 正在给('id', 'password')元素清空
+2025-04-21 15:18:54,758 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'verify_code')输入内容:8888
+2025-04-21 15:18:54,758 INFO [base.py(base_find_element:17)] - 查找元素('id', 'verify_code')
+2025-04-21 15:18:54,774 INFO [base.py(base_input_text:35)] - 正在给('id', 'verify_code')元素清空
+2025-04-21 15:18:54,793 INFO [base.py(base_click:25)] - 点击('css selector', '.J-login-submit')元素
+2025-04-21 15:18:54,793 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.J-login-submit')
+2025-04-21 15:18:54,822 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:18:54,831 INFO [base.py(base_get_text:41)] - 获取的文本内容账号不存在!
+2025-04-21 15:18:54,831 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:18:55,027 ERROR [test_login.py(test_login:79)] - assert '账号不存在!' == '密码错误!'
+  
+  - 密码错误!
+  + 账号不存在!
+2025-04-21 15:18:55,027 INFO [base.py(base_click:25)] - 点击('css selector', '.layui-layer-btn0')元素
+2025-04-21 15:18:55,027 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-btn0')
+2025-04-21 15:18:55,125 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'username')输入内容:
+2025-04-21 15:18:55,125 INFO [base.py(base_find_element:17)] - 查找元素('id', 'username')
+2025-04-21 15:18:55,148 INFO [base.py(base_input_text:35)] - 正在给('id', 'username')元素清空
+2025-04-21 15:18:55,172 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'password')输入内容:123456
+2025-04-21 15:18:55,172 INFO [base.py(base_find_element:17)] - 查找元素('id', 'password')
+2025-04-21 15:18:55,198 INFO [base.py(base_input_text:35)] - 正在给('id', 'password')元素清空
+2025-04-21 15:18:55,243 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'verify_code')输入内容:8888
+2025-04-21 15:18:55,244 INFO [base.py(base_find_element:17)] - 查找元素('id', 'verify_code')
+2025-04-21 15:18:55,268 INFO [base.py(base_input_text:35)] - 正在给('id', 'verify_code')元素清空
+2025-04-21 15:18:55,309 INFO [base.py(base_click:25)] - 点击('css selector', '.J-login-submit')元素
+2025-04-21 15:18:55,309 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.J-login-submit')
+2025-04-21 15:18:55,356 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:18:55,366 INFO [base.py(base_get_text:41)] - 获取的文本内容
+2025-04-21 15:18:55,366 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:18:55,374 INFO [base.py(base_click:25)] - 点击('css selector', '.layui-layer-btn0')元素
+2025-04-21 15:18:55,375 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-btn0')
+2025-04-21 15:18:55,423 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'username')输入内容:17823456789
+2025-04-21 15:18:55,423 INFO [base.py(base_find_element:17)] - 查找元素('id', 'username')
+2025-04-21 15:18:55,444 INFO [base.py(base_input_text:35)] - 正在给('id', 'username')元素清空
+2025-04-21 15:18:55,468 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'password')输入内容:123456
+2025-04-21 15:18:55,468 INFO [base.py(base_find_element:17)] - 查找元素('id', 'password')
+2025-04-21 15:18:55,487 INFO [base.py(base_input_text:35)] - 正在给('id', 'password')元素清空
+2025-04-21 15:18:55,508 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'verify_code')输入内容:2222
+2025-04-21 15:18:55,508 INFO [base.py(base_find_element:17)] - 查找元素('id', 'verify_code')
+2025-04-21 15:18:55,525 INFO [base.py(base_input_text:35)] - 正在给('id', 'verify_code')元素清空
+2025-04-21 15:18:55,552 INFO [base.py(base_click:25)] - 点击('css selector', '.J-login-submit')元素
+2025-04-21 15:18:55,552 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.J-login-submit')
+2025-04-21 15:18:55,587 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:18:55,597 INFO [base.py(base_get_text:41)] - 获取的文本内容用户名不能为空!
+2025-04-21 15:18:55,597 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:18:55,784 ERROR [test_login.py(test_login:79)] - assert '用户名不能为空!' == '验证码错误!'
+  
+  - 验证码错误!
+  + 用户名不能为空!
+2025-04-21 15:18:55,784 INFO [base.py(base_click:25)] - 点击('css selector', '.layui-layer-btn0')元素
+2025-04-21 15:18:55,784 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-btn0')
+2025-04-21 15:18:56,842 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'username')输入内容:17823456789
+2025-04-21 15:18:56,842 INFO [base.py(base_find_element:17)] - 查找元素('id', 'username')
+2025-04-21 15:18:56,859 INFO [base.py(base_input_text:35)] - 正在给('id', 'username')元素清空
+2025-04-21 15:18:56,884 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'password')输入内容:123456
+2025-04-21 15:18:56,884 INFO [base.py(base_find_element:17)] - 查找元素('id', 'password')
+2025-04-21 15:18:56,900 INFO [base.py(base_input_text:35)] - 正在给('id', 'password')元素清空
+2025-04-21 15:18:56,919 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'verify_code')输入内容:8888
+2025-04-21 15:18:56,919 INFO [base.py(base_find_element:17)] - 查找元素('id', 'verify_code')
+2025-04-21 15:18:56,936 INFO [base.py(base_input_text:35)] - 正在给('id', 'verify_code')元素清空
+2025-04-21 15:18:56,956 INFO [base.py(base_click:25)] - 点击('css selector', '.J-login-submit')元素
+2025-04-21 15:18:56,957 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.J-login-submit')
+2025-04-21 15:18:56,986 INFO [base.py(base_find_element:17)] - 查找元素('partial link text', '安全退出')
+2025-04-21 15:18:59,212 INFO [base.py(base_element_is_exist:53)] - 判断元素:('partial link text', '安全退出')存在！
+2025-04-21 15:19:01,213 INFO [base.py(base_click:25)] - 点击('partial link text', '安全退出')元素
+2025-04-21 15:19:01,213 INFO [base.py(base_find_element:17)] - 查找元素('partial link text', '安全退出')
+2025-04-21 15:19:03,278 INFO [base.py(base_find_element:17)] - 查找元素('partial link text', '登录')
+2025-04-21 15:19:03,286 INFO [base.py(base_element_is_exist:53)] - 判断元素:('partial link text', '登录')存在！
+2025-04-21 15:19:03,286 INFO [base.py(base_click:25)] - 点击('partial link text', '登录')元素
+2025-04-21 15:19:03,286 INFO [base.py(base_find_element:17)] - 查找元素('partial link text', '登录')
+2025-04-21 15:19:03,688 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'username')输入内容:130s9999999
+2025-04-21 15:19:03,688 INFO [base.py(base_find_element:17)] - 查找元素('id', 'username')
+2025-04-21 15:19:03,707 INFO [base.py(base_input_text:35)] - 正在给('id', 'username')元素清空
+2025-04-21 15:19:03,728 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'password')输入内容:123456
+2025-04-21 15:19:03,728 INFO [base.py(base_find_element:17)] - 查找元素('id', 'password')
+2025-04-21 15:19:03,750 INFO [base.py(base_input_text:35)] - 正在给('id', 'password')元素清空
+2025-04-21 15:19:03,774 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'verify_code')输入内容:8888
+2025-04-21 15:19:03,774 INFO [base.py(base_find_element:17)] - 查找元素('id', 'verify_code')
+2025-04-21 15:19:03,794 INFO [base.py(base_input_text:35)] - 正在给('id', 'verify_code')元素清空
+2025-04-21 15:19:03,821 INFO [base.py(base_click:25)] - 点击('css selector', '.J-login-submit')元素
+2025-04-21 15:19:03,821 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.J-login-submit')
+2025-04-21 15:19:03,858 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:19:03,870 INFO [base.py(base_get_text:41)] - 获取的文本内容
+2025-04-21 15:19:03,870 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:19:03,880 INFO [base.py(base_click:25)] - 点击('css selector', '.layui-layer-btn0')元素
+2025-04-21 15:19:03,882 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-btn0')
+2025-04-21 15:19:03,918 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'username')输入内容:17823456789
+2025-04-21 15:19:03,918 INFO [base.py(base_find_element:17)] - 查找元素('id', 'username')
+2025-04-21 15:19:03,953 INFO [base.py(base_input_text:35)] - 正在给('id', 'username')元素清空
+2025-04-21 15:19:03,979 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'password')输入内容:
+2025-04-21 15:19:03,979 INFO [base.py(base_find_element:17)] - 查找元素('id', 'password')
+2025-04-21 15:19:03,997 INFO [base.py(base_input_text:35)] - 正在给('id', 'password')元素清空
+2025-04-21 15:19:04,016 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'verify_code')输入内容:8888
+2025-04-21 15:19:04,016 INFO [base.py(base_find_element:17)] - 查找元素('id', 'verify_code')
+2025-04-21 15:19:04,052 INFO [base.py(base_input_text:35)] - 正在给('id', 'verify_code')元素清空
+2025-04-21 15:19:04,075 INFO [base.py(base_click:25)] - 点击('css selector', '.J-login-submit')元素
+2025-04-21 15:19:04,075 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.J-login-submit')
+2025-04-21 15:19:04,105 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:19:04,115 INFO [base.py(base_get_text:41)] - 获取的文本内容账号格式不匹配!
+2025-04-21 15:19:04,115 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:19:04,337 ERROR [test_login.py(test_login:79)] - assert '' == '密码不能为空!'
+  
+  - 密码不能为空!
+2025-04-21 15:19:04,337 INFO [base.py(base_click:25)] - 点击('css selector', '.layui-layer-btn0')元素
+2025-04-21 15:19:04,337 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-btn0')
+2025-04-21 15:19:04,394 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'username')输入内容:17823456789
+2025-04-21 15:19:04,394 INFO [base.py(base_find_element:17)] - 查找元素('id', 'username')
+2025-04-21 15:19:04,412 INFO [base.py(base_input_text:35)] - 正在给('id', 'username')元素清空
+2025-04-21 15:19:04,438 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'password')输入内容:123456
+2025-04-21 15:19:04,438 INFO [base.py(base_find_element:17)] - 查找元素('id', 'password')
+2025-04-21 15:19:04,455 INFO [base.py(base_input_text:35)] - 正在给('id', 'password')元素清空
+2025-04-21 15:19:04,481 INFO [base.py(base_input_text:30)] - 正在给元素('id', 'verify_code')输入内容:
+2025-04-21 15:19:04,481 INFO [base.py(base_find_element:17)] - 查找元素('id', 'verify_code')
+2025-04-21 15:19:04,499 INFO [base.py(base_input_text:35)] - 正在给('id', 'verify_code')元素清空
+2025-04-21 15:19:04,518 INFO [base.py(base_click:25)] - 点击('css selector', '.J-login-submit')元素
+2025-04-21 15:19:04,518 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.J-login-submit')
+2025-04-21 15:19:04,564 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:19:04,571 INFO [base.py(base_get_text:41)] - 获取的文本内容密码不能为空!
+2025-04-21 15:19:04,572 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-content')
+2025-04-21 15:19:04,806 ERROR [test_login.py(test_login:79)] - Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.96); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71C495335+78597]
+	GetHandleVerifier [0x00007FF71C495390+78688]
+	(No symbol) [0x00007FF71C2491AA]
+	(No symbol) [0x00007FF71C250ABC]
+	(No symbol) [0x00007FF71C253B1C]
+	(No symbol) [0x00007FF71C253BEF]
+	(No symbol) [0x00007FF71C298D66]
+	(No symbol) [0x00007FF71C2C70EA]
+	(No symbol) [0x00007FF71C291AB6]
+	(No symbol) [0x00007FF71C2C7300]
+	(No symbol) [0x00007FF71C2EF2BB]
+	(No symbol) [0x00007FF71C2C6EC3]
+	(No symbol) [0x00007FF71C2903F8]
+	(No symbol) [0x00007FF71C291163]
+	GetHandleVerifier [0x00007FF71C73EEED+2870973]
+	GetHandleVerifier [0x00007FF71C739698+2848360]
+	GetHandleVerifier [0x00007FF71C756973+2967875]
+	GetHandleVerifier [0x00007FF71C4B017A+188746]
+	GetHandleVerifier [0x00007FF71C4B845F+222255]
+	GetHandleVerifier [0x00007FF71C49D2B4+111236]
+	GetHandleVerifier [0x00007FF71C49D462+111666]
+	GetHandleVerifier [0x00007FF71C483589+5465]
+	BaseThreadInitThunk [0x00007FF8FA7DE8D7+23]
+	RtlUserThreadStart [0x00007FF8FC6914FC+44]
+
+2025-04-21 15:19:04,806 INFO [base.py(base_click:25)] - 点击('css selector', '.layui-layer-btn0')元素
+2025-04-21 15:19:04,806 INFO [base.py(base_find_element:17)] - 查找元素('css selector', '.layui-layer-btn0')

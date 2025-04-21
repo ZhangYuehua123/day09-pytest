@@ -1,0 +1,56 @@
+{
+"login_001": {"username":"13099999999",
+    "password": "123456",
+    "verify_code": "8888",
+    "expect_result": "账号不存在!" ,
+    "success": false
+},
+"login_002": {"username":"17823456789",
+  "password": "123123",
+  "verify_code": "8888",
+  "expect_result": "密码错误!" ,
+  "success": false
+},
+"login_003": {"username":"",
+  "password": "123456",
+  "verify_code": "8888",
+  "expect_result": "用户名不能为空!" ,
+  "success": false
+},
+"login_004": {
+    "username": "17823456789",
+    "password": "123456",
+    "verify_code": "2222",
+    "expect_result": "验证码错误!",
+    "success": false
+  },
+"login_005": {
+    "username": "17823456789",
+    "password": "123456",
+    "verify_code": "8888",
+    "expect_result": "安全退出",
+    "success": true
+  },
+"login_006": {
+  "username": "130s9999999",
+  "password": "123456",
+  "verify_code": "8888",
+  "expect_result": "账号格式不匹配!",
+  "success": false
+},
+"login_007": {
+    "username": "17823456789",
+    "password": "",
+    "verify_code": "8888",
+    "expect_result": "密码不能为空!",
+    "success": false
+  },
+"login_008": {
+    "username": "17823456789",
+    "password": "123456",
+    "verify_code": "",
+    "expect_result": "验证码不能为空!",
+    "success": false
+  }
+
+}
